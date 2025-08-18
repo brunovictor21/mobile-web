@@ -3,10 +3,37 @@
     margin: 0;
 }
 body {
-    background: rgb(252, 89, 252);
+    background: rgb(240, 102, 47);
 
 
 }
     .container {
-        background: rgb(88, 3, 76);
+        background: rgb(240, 6, 6);
+        max-width: 1064px;
+        margin: 0 auto;
     }
+
+/* criando o header */
+    header {
+        background: rgb(68, 67, 67);
+        /* Altura */
+        height: 130px;
+        border-bottom: 3px solid orange;
+        /* flexbox */
+        display: flex;
+        align-items: center;
+
+
+        header img {
+            margin-left: 15px;
+            margin-right: 15px;
+
+
+            header h2 {
+                color: aliceblue;
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+        }
+    }
+
