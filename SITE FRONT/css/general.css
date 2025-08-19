@@ -75,3 +75,12 @@ header {
     /*cortar imagem*/
     overflow: hidden;
 }
+/* Content Home */ 
+.content-box {
+    border: 1px solid red;
+}
+
+.box { 
+    border: 1px blue;
+    max-width: 300px;
+}
