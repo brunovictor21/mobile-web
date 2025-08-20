@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     background: rgb(0, 21, 250);
@@ -42,7 +43,7 @@ header {
     display: flex;
     justify-content: space-around; 
     align-items: center;
-    background-color: rgb(81, 235, 24);
+    background-color: rgb(255, 255, 0);
 }
 .menu li {
     border: 1px solid rgb(0, 0, 0);
@@ -56,7 +57,6 @@ header {
     font-size: 33px;
     text-decoration: none;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 18px;
 }
@@ -69,18 +69,50 @@ header {
 .banner {
     max-width: 1000px;
     height: 250px;
-    border: 10px solid rgb(0, 0, 0);
-    border-radius: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 100px;
     margin: 20px;
     /*cortar imagem*/
     overflow: hidden;
 }
 /* Content Home */ 
 .content-box {
-    border: 1px solid red;
+    border: 2px solid rgb(5, 3, 3);
+    margin: 20px;
+    /*Flexbox*/
+    display: flex;
 }
 
 .box { 
-    border: 1px blue;
+    border: 5px solid rgb(20, 18, 20);
     max-width: 300px;
+    border-radius: 50px;
+    /*Cortar imagem*/
+    overflow: hidden;
+    margin: 10px 35px 20px 20px;
+    /*Sombra*/
+    box-shadow:  5px 2px 20px rgb(255, 255, 0);
+}
+
+.box img {
+    border-bottom: 10px;
+}
+
+.box p {
+    padding: 10px;
+    color: rgb(13, 150, 241);
+}
+
+.box a {
+    padding: 0px 0px 10px 10px;
+    display: block;
+    color: rgb(81, 235, 24);
+    text-decoration: none;
+    /*Negrito*/
+    font-weight: bold;
+}
+
+.box a:hover {
+    text-decoration: underline;
+
 }
