@@ -15,12 +15,17 @@ body {
     margin: 0 auto;
 }
 
+.title-general h1 {
+    padding-left: 25px;
+    color: rgb(157, 0, 0); 
+}
+
 /* criando o header */
 header {
-    background: rgb(252, 252, 252);
+    background: rgb(157, 0, 0);
     /* Altura */
     height: 130px;
-    border-bottom: 3px solid rgb(81, 235, 24);
+    border-bottom: 3px solid rgb(5, 5, 5);
     /* flexbox */
     display: flex;
     align-items: center;
@@ -43,7 +48,7 @@ header {
     display: flex;
     justify-content: space-around; 
     align-items: center;
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(255, 255, 255);
 }
 .menu li {
     border: 1px solid rgb(0, 0, 0);
@@ -91,7 +96,7 @@ header {
     overflow: hidden;
     margin: 10px 35px 20px 20px;
     /*Sombra*/
-    box-shadow:  5px 2px 20px rgb(255, 255, 0);
+    box-shadow:  5px 2px 20px rgb(255, 0, 0);
 }
 
 .box img {
@@ -106,7 +111,7 @@ header {
 .box a {
     padding: 0px 0px 10px 10px;
     display: block;
-    color: rgb(81, 235, 24);
+    color: rgb(3, 8, 1);
     text-decoration: none;
     /*Negrito*/
     font-weight: bold;
@@ -114,5 +119,25 @@ header {
 
 .box a:hover {
     text-decoration: underline;
-
 }
+
+.promocao {
+    border: 5px solid red;
+    /*Flexbox*/
+    display: flex;
+    justify-content: center;
+}
+
+.promocao img { 
+    max-width: 800px;
+    height: 180px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    margin: 20px;
+    /*Cortar imagem*/
+    overflow: hidden;
+}
+
+
+
+
