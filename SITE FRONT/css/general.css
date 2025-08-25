@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
 }
 body {
     background: rgb(219, 217, 217);
@@ -219,9 +220,41 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.form { 
+    margin: 30px;
+}
 
+.form-group { 
+    margin: bottom 20px;
+    margin-top: 20px;
+}
 
+.form-group select { 
+    height: 30px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
 
+.form-group label { 
+    font-size: bold;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.form-group input { 
+    width: 100%;
+    max-width: 600px;
+    height: 30px;
+    outline: none;
+    padding-left: 5px;
+    border-radius: 7px; 
+}
+
+.form-group-sexo label { 
+    display: inline-block;
+    margin-top: 10px;
+}
 
 
 
