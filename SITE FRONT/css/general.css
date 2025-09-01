@@ -90,9 +90,9 @@ header {
 }
 
 .box { 
-    border: 5px solid rgb(20, 18, 20);
-    max-width: 300px;
-    border-radius: 50px;
+    border: 2px solid rgb(20, 18, 20);
+    max-width: 400px;
+    border-radius: 0px;
     /*Cortar imagem*/
     overflow: hidden;
     margin: 10px 35px 20px 20px;
@@ -105,12 +105,12 @@ header {
 }
 
 .box p {
-    padding: 10px;
-    color: rgb(13, 150, 241);
+    padding: 5px;
+    color: rgb(255, 0, 0);
 }
 
 .box a {
-    padding: 0px 0px 10px 10px;
+    padding: 1px 10px 10px 10px;
     display: block;
     color: rgb(3, 8, 1);
     text-decoration: none;
@@ -132,7 +132,7 @@ header {
 .promocao img { 
     max-width: 800px;
     height: 180px;
-    border: 2px solid blueviolet;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     margin: 20px;
     justify-content: center;
