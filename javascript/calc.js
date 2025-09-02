@@ -1,8 +1,8 @@
 alert("teste");
 
 // Duas variaveis 
-let num1 = 20;
-let num2 = 10;
+let num1 = Number (prompt ("digite um numero"));
+let num2 = Number ( prompt ("digite um numero"));
 
 // Operações 
 let soma = num1 + num2;
