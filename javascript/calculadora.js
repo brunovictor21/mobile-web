@@ -6,36 +6,54 @@ const Resultado = document.getElementById("resultado");
 // Função
 function somar(event){
     event.preventDefault();
-    console.log(num1.value);
-    console.log(num2.value);
-    resultado.innerHTML = Number(num1.value) + Number(num2.value);
+
+//Validação de formulário
+ if(num1.value == "" || num2.value == ""); 
+    alert("Digite")
+    return false;
+}
+    
+    resultado.innerHTML = Number(num1.value) + Number(num2.value);{
     num1.value ="";
     num2.value ="";    
 }
 
 function sub(event){
     event.preventDefault();
-    console.log(num1.value);
-    console.log(num2.value);
-    resultado.innerHTML = Number(num1.value) - Number(num2.value);
+//Validação de formulário
+ if(num1.value == "" || num2.value == ""); 
+    alert("Digite")
+    return false;
+}
+    resultado.innerHTML = Number(num1.value) - Number(num2.value);{
     num1.value ="";
     num2.value ="";    
 }
 
 function mult(event){
     event.preventDefault();
-    console.log(num1.value);
-    console.log(num2.value);
-    resultado.innerHTML = Number(num1.value) * Number(num2.value);
+
+    //Validação de formulário
+ if(num1.value == "" || num2.value == ""); 
+    alert("Digite")
+    return false;
+}
+        
+    resultado.innerHTML = Number(num1.value) * Number(num2.value);{
     num1.value ="";
     num2.value ="";    
 }
 
 function div(event){
     event.preventDefault();
-    console.log(num1.value);
-    console.log(num2.value);
-    resultado.innerHTML = Number(num1.value) / Number(num2.value);
+
+    //Validação de formulário
+ if(num1.value == "" || num2.value == ""); 
+    alert("Digite")
+    return false;
+}
+       
+    resultado.innerHTML = Number(num1.value) / Number(num2.value);{
     num1.value ="";
     num2.value ="";    
-}
+} 
