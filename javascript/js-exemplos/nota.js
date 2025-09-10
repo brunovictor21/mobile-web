@@ -5,7 +5,7 @@ Senão ele está reprovado.
 
 let nota = 7;
 
-if (nota >= 6) { 
+if (numnota >= 6) { 
         console.log("Aprovado");
 }
 else {
