@@ -18,10 +18,8 @@ function resultadoNotaClick(event) {
 
     //Validação de formulário
  if (inputNota.value == ""); 
-    message.style.display = "block";
+    alert("Digite sua idade")
         return false;
-
-        message.style.display = "none";
 
 }
 

@@ -1,0 +1,82 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+body {
+    background: #ff00aa;
+
+}
+
+.container {
+    /*Largura*/
+    width: 100%;
+    max-width:500px;
+    /*Borda*/
+    border: 2px solid rgb(0, 0, 0);
+    /* Borda arrendondada */
+    border-radius: 10px;
+    /* Centralizar minha tela*/
+    margin: 50px auto;
+}
+
+.container form {
+    /*Flexbox*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control input {
+    /*Espaçamento entre os elementos*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*Efeito colateral do navegador*/
+    outline: none;
+    /*Espaçamento dentro do elemento*/
+    padding: 15px;
+}
+
+.form-control label {
+    /* Espaçamento entre os elementos */
+    margin-top: 15px;
+    color: #fff;
+    display: block;
+}
+
+#verifica-nota {
+    /* Cor do fundo */
+    background: #191970;
+    /* Borda do Botão */
+    border: 1px solid white;
+    /*Cor de texto */
+    color: #fff;
+    /*Espaçamento dentro do elemento */
+    padding: 5px;
+    /* Espaçamento fora do elemento */
+    margin-bottom: 10px;
+    /* Cursor mãozinha */
+    cursor: pointer;
+    transition: all 0.9s;
+}
+
+#verifica-nota:hover {
+    background-color: rgb(232, 229, 229);
+    color: #191970;
+}
+
+#result {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#message {
+    display: none;
+}
+
+#message span {
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    display: block;
+}
