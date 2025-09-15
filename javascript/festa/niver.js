@@ -3,7 +3,7 @@ function diasParaNiver() {
     const diaSemana = hoje.getDay(); // 0=Dom, 1=Seg, ...,4=Quin
     let diasFaltando = 4 - diaSemana;
 
-    if (diasFaltando < 0){
+    if (diasFaltando < 0) {
         diasFaltando += 7;
     }
 
@@ -11,6 +11,23 @@ function diasParaNiver() {
 
 }
 
-
 // Chamar a função 
 diasParaNiver();
+
+function atualizarHora() {
+    const horaHtml = document.getElementById("hora")
+    const agora = new Date(); 
+  const Hora = agora.getHours();
+  const minutos = agora.getMinutes();
+  const segundos = agora.getSeconds (); 
+
+  horaHtml.textContent = `:${Hora}:${minutos}:${segundos}`;
+
+}
+// chamar função 
+diasParaNiver();
+
+
+setInterval(atualizarHora, 1000);
+
+atualizarHora(); 
