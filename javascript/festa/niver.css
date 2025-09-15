@@ -1,9 +1,35 @@
 body {
     background:pink;
     margin:auto;
-    display: flex;
     align-items: center;
+    /* background-image: url(feliz_aniversario_amigo.gif); */
+    /* background: no-repeat ; */
 
 
+}
+
+
+
+.container{
+background-color: white;
+ text-align: center;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+.containerTre{
+    align-items: center;
+    
+}
+
+
+img{    
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+span{
+color: brown;
 
 }
