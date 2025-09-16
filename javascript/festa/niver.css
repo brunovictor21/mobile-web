@@ -4,11 +4,7 @@ body {
     align-items: center;
     /* background-image: url(feliz_aniversario_amigo.gif); */
     /* background: no-repeat ; */
-
-
 }
-
-
 
 .container{
 background-color: white;
@@ -19,9 +15,7 @@ background-color: white;
 
 .containerTre{
     align-items: center;
-    
 }
-
 
 img{    
     margin: 10px;
@@ -31,5 +25,10 @@ img{
 
 span{
 color: brown;
+}
 
+.textoPiscando{
+color: yellow;
+text-align: center;
+animation: piscaPisca 5s infinite,
 }
